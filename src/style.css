@@ -1,0 +1,278 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+.hero {
+    height:100vh;
+    width: 100%;
+    color:white;
+    font-size:40px;
+   
+}
+
+
+#video {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+}
+
+.logo {
+    height:120px;
+    margin:20px
+}
+
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    width: 680px;
+    justify-content:space-around;
+    font-size:20px;
+    height:35px;
+    border-radius:40px;
+    padding:10px;
+    align-items: center;
+    background-color:black;
+    
+}
+
+
+ul.show {
+    display: block;
+}
+
+li {
+    
+    text-decoration:none;
+    color:white;
+    
+
+}
+
+.hero-center {
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    justify-content:center;
+    align-items:center; 
+    color:black;
+    
+}
+
+h1 {
+    font-size:90px;
+    height:30px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+    
+    
+    
+}
+
+h2 {
+    font-weight: 1200;
+    font-size:35px;
+    
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 1600;
+    background-color: black;
+    border-radius: 30px;
+    
+}
+
+
+p {
+    margin:0px;
+    margin-top: 10px;
+    padding-left:20px;
+    font-size:20px
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#herop {
+    font-size: 35px;
+
+}
+   
+
+
+.hero-button {
+   
+    background-color:black;
+    color:white;
+    height:30px;
+    width:150px;
+    border-radius:35px;
+    font-size:25px;
+    padding:20px;
+    margin-bottom: 200px;
+    margin-top:20px;
+    text-decoration:none;
+    
+    
+}
+
+
+.hero-button:hover {
+    background-color:grey;
+    color:black;
+}
+
+.hero-button:active {
+    background-color:grey;
+    color:black;
+}
+
+li:hover {
+    color:grey;
+}
+
+li:active {
+    color:grey;
+}
+
+.section2 {
+    background-color: black;
+    display: flex;
+    Justify-content: space-around;
+    padding:80px;
+    
+   
+    
+    
+   
+    
+}
+
+.information {
+    color:white;
+    text-align:center;
+    padding:30px;
+    width:50%;
+    float:left;
+    
+}
+
+
+
+
+
+.headshot-container {
+    
+    width:50%;
+    float:right;
+    
+    
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 200px;
+    Margin-left:15px;
+    padding:30px;
+    
+}
+
+.section3 {
+    
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:70px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.subheadingcolor {
+    color:black;
+}
+
+.project-image {
+    width:400px;
+    border-radius:200px;
+    margin-top: 40px;
+    
+}
+
+.subtext {
+    font-size:10px;
+    font-weight: 300;
+
+}
+
+.project-container {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    
+    .form {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+
+}
+
+.project-card {
+    width:520px;
+    height:610px;
+    
+    background-color: black;
+}
+
+footer {
+    height: 500px;
+    background-color:black;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.form {
+    font-size:20px;
+    color:black;
+    height:80px;
+}
+

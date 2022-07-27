@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+      <link rel="stylesheet" href="src/style.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <script src="https://kit.fontawesome.com/2473699818.js" crossorigin="anonymous"></script>
+      <title>Portfolio</title>
+      <meta charset="UTF-8" />
+    </HEAD>
+
+    <body>
+      <section class="hero">
+        <video autoplay muted loop id="video">
+          <source src="src/videos/laptopvideo1.mp4" type="video/mp4">
+          Your browser does not support html 5 video. 
+         </video>
+        <nav>
+          <img class="logo" src="src/images/logo4.png" alt="Joy Dideola's portfolio logo"/>
+          <ul id="nav-list">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
+
+        </nav>
+        <div class="hero-center">
+          <h1><strong>Joy Dideola</strong></h1>
+          <p id="herop"><strong>Data Engineer</strong></p>
+          <a href="https://drive.google.com/file/d/1_SwhtCtkAaYOoNzCMY6nkshfAj9EnGOg/view?usp=sharing" class="hero-button">Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2" id="about-me">
+        <div class="information">
+          <h2>About Me</h2>
+          <p> I have a background in digital marketing where I developed my skills in data analytics, research, SEO, SMO, content writing, paid advertising, website creation and website maintenance. I also have a degree in Fashion Journalism (BA) Hons, where I developed my skills in using software’s such as Premiere, Photoshop, Illustrator and In Design. With my previous experience, I can work well under pressure, work efficiently in a collaborative environment and independently. With a passion for self-learning, I can pick up concepts and learn my way around tools, quickly. </p>
+          <p> Please browse my portfolio, entirely hand-coded.</p>
+        </div>
+        <div class="headshot-container">
+          <img class="headshot" src="src/images/myphoto2.png" alt="Photo of Joy Dideola"/>
+        </div>
+      </section>
+
+      <section class="section3" id="projects">
+         <h2 class="subheadingcolor">Projects</h2>
+         <div class="project-container">
+           <div class="project-card">
+             <a href="https://joydid.github.io/Tea-recipe/">
+             <img class="project-image" src="src/images/projectone.png" alt="Project one image"/>
+             </a>
+             <h3>Project one</h3>
+             <p>I hand-coded a recipe webpage, showing you how to make amazing brewed tea.</p>
+           </div>
+           <div class="project-card">
+             <a href="https://joydid.github.io/Company-website/">
+              <img class="project-image" src="src/images/portoflio 2 copy.png" alt="Project two image"/>
+              <h3>Project two</h3>
+
+              <p>I hand-coded a hero section of a hompage, mobile company website.</p>
+           </div>
+         </div>
+      </section>
+      <footer id="contact-me">
+        <h2>Contact Me</h2>
+
+        <div class="form">
+        <form action="https://formsubmit.co/dideolajoy@gmail.com" method="POST">
+          <input type="text" name="first name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email Address">
+          <input type="message" name="message" placeholder="Write your message here" required>
+          <button type="submit">Send</button>
+        </form>
+        </div>
+      </footer>
+
+        <script src="src/app.js"></script>
+    </body>
+</html>
